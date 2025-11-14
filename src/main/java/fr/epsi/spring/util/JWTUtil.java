@@ -22,11 +22,11 @@ public class JWTUtil {
         this.key = Keys.hmacShaKeyFor(keyBytes);
     }
 
-    private Key getSigningKey() {
+    /*private Key getSigningKey() {
         // convertit la string en Key pour HS256
         byte[] keyBytes = SECRET.getBytes(StandardCharsets.UTF_8);
         return Keys.hmacShaKeyFor(keyBytes);
-    }
+    } */
 
     public String generateToken (String username, String role){
         return Jwts.builder()

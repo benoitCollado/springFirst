@@ -1,13 +1,13 @@
 package fr.epsi.spring.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
+//import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestAttribute;
+//import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import fr.epsi.spring.model.User;
 import fr.epsi.spring.service.UserService;
-import java.util.List;
+//import java.util.List;
 import fr.epsi.spring.util.JWTUtil;
 import fr.epsi.spring.service.AuthService;
 import java.util.Optional;
